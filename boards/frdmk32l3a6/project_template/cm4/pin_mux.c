@@ -419,7 +419,6 @@ void BOARD_InitACCELPins(void)
     CLOCK_EnableClock(kCLOCK_PortE);
     CLOCK_EnableClock(kCLOCK_Rgpio1);//allow access to GPIOE_BASE address 
     
-
     gpio_pin_config_t ACCEL_INT1_config = {
         .pinDirection = kGPIO_DigitalInput,
         .outputLogic = 0U
